@@ -1,0 +1,17 @@
+Package: resurrectr
+Type: Package
+Title: Resurrect databases from dump files
+Description: Create and run temporary databases from database dump files.
+Version: 0.0.0.9000
+License: MIT + file LICENCE
+Authors@R: person("James", "Atkins", email = "hello@jamesatkins.net", role = c("aut", "cre"))
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/james-atkins/resurrectr
+BugReports: https://github.com/james-atkins/resurrectr/issues
+RoxygenNote: 6.0.1
+Imports: assertthat,
+    jsonlite,
+    withr,
+    purrr
+Suggests: testthat
